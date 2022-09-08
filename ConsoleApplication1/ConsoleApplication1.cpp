@@ -1,11 +1,13 @@
-﻿// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include <iostream>      //For I/O Functions
+#include <windows.h>   //For Beep & Sleep functions
+#include<stdlib.h>  //For System Pause
+using namespace std;
 
 int main()
 {
-    for(int i=0; i<20; i++)
+    for (int i = 0; i < 20; i++) {
+        Beep(1000, 1000);
+    }
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
